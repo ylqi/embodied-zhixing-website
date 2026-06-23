@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>具身知行(杭州)人工智能科技有限公司</title>
+    <meta
+      name="description"
+      content="具身知行(杭州)人工智能科技有限公司，围绕机器人的知行合一，构建从多模态感知、空间记忆、场景理解到行动决策的具身智能系统。"
+    >
+    <meta property="og:title" content="具身知行(杭州)人工智能科技有限公司">
+    <meta
+      property="og:description"
+      content="以颜力琦的多模态具身智能、视觉定位、视频理解与 3D/4D 重建研究为基础，探索机器人的知行合一。"
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css?v=4">
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark">知</span>
+        <span>
+          <strong>具身知行</strong>
+          <small>Embodied Knowing & Acting</small>
+        </span>
+      </a>
+      <nav>
+        <a href="#founder">创始人</a>
+        <a href="#thesis">创办思路</a>
+        <a href="#research">研究依据</a>
+        <a href="#roadmap">产品方向</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">具身知行(杭州)人工智能科技有限公司</p>
+          <h1 id="hero-title"><span>知行合一</span><small>让机器人把“知道”变成“做到”</small></h1>
+          <p class="lead">
+            我们相信下一代机器人不止需要大模型的语言能力，更需要在真实世界中看见、定位、理解、记忆、规划并持续行动。
+            “知行合一”是具身智能的工程目标：知识必须落在身体、空间、任务和反馈闭环里。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#thesis">查看创办思路</a>
+            <a class="button secondary" href="#research">研究脉络</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="field-grid"></div>
+          <figure class="hero-image-frame">
+            <img src="assets/embodied-ai-hero.png?v=3" alt="">
+          </figure>
+        </div>
+        <aside class="signal-panel" aria-label="公司方向摘要">
+          <div>
+            <span>核心命题</span>
+            <strong>机器人知行合一</strong>
+          </div>
+          <div>
+            <span>技术底座</span>
+            <strong>多模态感知 + 空间智能 + 行动学习</strong>
+          </div>
+          <div>
+            <span>面向场景</span>
+            <strong>移动机器人、机械臂、灵巧手、精细操作任务</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section id="founder" class="section founder-section" aria-labelledby="founder-title">
+        <div class="section-kicker">Founder</div>
+        <div class="two-column">
+          <div>
+            <h2 id="founder-title">创始人：颜力琦</h2>
+            <p>
+            颜力琦现任杭州电子科技大学特聘副教授，博士毕业于复旦大学。其公开研究横跨具身导航、视觉定位、视频理解、
+              多模态感知推理、视觉语言机器人任务、无人机第一视角场景建模与长视频 4D 重建。
+              这些方向共同指向一个问题：智能体如何在动态、稀疏、尺度变化明显的真实空间中建立可行动的世界模型。
+            </p>
+            <p>
+              具身知行将这条研究线索转化为公司方法论：先让机器“知其境”，再让机器“行其事”。
+              感知、语言、记忆、几何和控制不是分散模块，而是同一个行动闭环中的不同层次。
+            </p>
+          </div>
+          <div class="founder-card">
+            <div class="portrait">
+              <img src="assets/liqi-yan.jpg" alt="颜力琦头像">
+            </div>
+            <dl>
+              <div>
+                <dt>当前身份</dt>
+                <dd>杭州电子科技大学特聘副教授，复旦大学博士。</dd>
+              </div>
+              <div>
+                <dt>研究关键词</dt>
+                <dd>Embodied Intelligence, CV + NLP for Robotics, multi-modal perception and reasoning, visual-language robotic tasks, LLMs</dd>
+              </div>
+              <div>
+                <dt>公开代码线索</dt>
+                <dd><a href="https://github.com/ylqi/GL-RG" target="_blank" rel="noreferrer">GL-RG</a>、<a href="https://github.com/YanLiqi/HAF" target="_blank" rel="noreferrer">HAF</a></dd>
+              </div>
+              <div>
+                <dt>个人主页</dt>
+                <dd><a href="https://ylqi.github.io/" target="_blank" rel="noreferrer">ylqi.github.io</a></dd>
+              </div>
+              <div>
+                <dt>公司落点</dt>
+                <dd>把视觉空间智能转化为机器人可执行的任务能力。</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="thesis" class="section thesis-section" aria-labelledby="thesis-title">
+        <div class="section-kicker">Company Thesis</div>
+        <h2 id="thesis-title">机器人的知行合一</h2>
+        <div class="thesis-grid">
+          <article>
+            <span class="number">01</span>
+            <h3>知：从多模态输入形成环境理解</h3>
+            <p>
+              机器人需要同时处理视觉、语音、目标、深度、语义区域与历史状态。只有把多源信息合成为可用表征，
+              才能减少“看见了却不理解”的断裂。
+            </p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>行：把理解转化为连续动作</h3>
+            <p>
+              行动不是一次性输出答案，而是在空间中反复观测、选择、执行、校正。机器人的能力边界取决于反馈闭环是否稳定。
+            </p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>合一：世界模型与任务策略共同进化</h3>
+            <p>
+              当空间记忆、几何重建和语言目标进入同一个系统，机器人才能在新场景中迁移经验，完成更复杂的真实任务。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="research" class="section research-section" aria-labelledby="research-title">
+        <div class="section-kicker">Research Trace</div>
+        <div class="section-heading">
+          <h2 id="research-title">从论文到公司技术路线</h2>
+          <p>以下资料来自公开论文、项目页与代码仓库，用于刻画颜力琦研究方向和公司创办思路的连接。</p>
+        </div>
+        <div class="paper-list">
+          <article class="paper">
+            <div class="paper-year">2020</div>
+            <div>
+              <h3>Memory Vision-Voice Indoor Navigation</h3>
+              <p>
+                提出结合语音目标、第一视角 RGB、语义分割、深度估计、区域注意力与记忆网络的室内导航方法，
+                关注机器人如何在日常室内任务中根据语言目标行动。
+              </p>
+              <a href="https://arxiv.org/abs/2009.00402" target="_blank" rel="noreferrer">arXiv 论文</a>
+            </div>
+          </article>
+          <article class="paper">
+            <div class="paper-year">2021</div>
+            <div>
+              <h3>Hierarchical Attention Fusion for Geo-Localization</h3>
+              <p>
+                将地理定位视为图像检索任务，通过多层级特征和自监督注意力融合提升大尺度场景定位鲁棒性。
+                对机器人“我在哪里”的基础能力有直接启发。
+              </p>
+              <a href="https://arxiv.org/abs/2102.09186" target="_blank" rel="noreferrer">arXiv 论文</a>
+            </div>
+          </article>
+          <article class="paper">
+            <div class="paper-year">2022</div>
+            <div>
+              <h3>GL-RG: Global-Local Representation Granularity</h3>
+              <p>
+                面向视频描述任务，显式建模全局与局部视频表征粒度，帮助模型把连续视觉内容转化为语言表达。
+                这对应机器人从“看见过程”到“理解事件”的能力。
+              </p>
+              <a href="https://arxiv.org/abs/2205.10706" target="_blank" rel="noreferrer">arXiv 论文</a>
+              <a href="https://github.com/ylqi/GL-RG" target="_blank" rel="noreferrer">GitHub 代码</a>
+            </div>
+          </article>
+          <article class="paper">
+            <div class="paper-year">2024</div>
+            <div>
+              <h3>FPV-NeRF: Radiance Field Learners as UAV First-Person Viewers</h3>
+              <p>
+                针对无人机第一视角视频的稀疏视角、尺度变化和时空一致性问题，构建面向飞行空间理解的神经辐射场方法。
+              </p>
+              <a href="https://arxiv.org/abs/2408.05533" target="_blank" rel="noreferrer">arXiv 论文</a>
+              <a href="https://fpv-nerf.github.io/" target="_blank" rel="noreferrer">项目页</a>
+            </div>
+          </article>
+          <article class="paper">
+            <div class="paper-year">2026</div>
+            <div>
+              <h3>LongDPM: Overlap-Aware 4D Reconstruction</h3>
+              <p>
+                面向长单目视频的动态 3D/4D 重建，把重叠片段、坐标系配准、动态身份关联与轨迹融合组织成可扩展框架。
+                这为机器人理解动态世界提供几何基础。
+              </p>
+              <a href="https://arxiv.org/abs/2605.17303" target="_blank" rel="noreferrer">arXiv 论文</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section roadmap-section" aria-labelledby="roadmap-title">
+        <div class="section-kicker">Product Roadmap</div>
+        <h2 id="roadmap-title">从研究到产品的三条路径</h2>
+        <div class="roadmap">
+          <article>
+            <h3>具身感知中台</h3>
+            <p>融合视觉、语音、深度、语义和场景记忆，为移动机器人提供可复用的环境理解层。</p>
+          </article>
+          <article>
+            <h3>空间定位与地图智能</h3>
+            <p>面向室内外复杂场景，提供弱监督定位、跨尺度检索、动态场景重建与任务级空间表示。</p>
+          </article>
+          <article>
+            <h3>任务闭环与行动学习</h3>
+            <p>围绕移动机器人、机械臂和灵巧手，把语言目标转化为抓取、插接、装配、整理等可执行动作，并在反馈中持续自我校正。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section closing-section" aria-labelledby="closing-title">
+        <div>
+          <div class="section-kicker">Belief</div>
+          <h2 id="closing-title">真正的智能，不停留在答案里。</h2>
+          <p>
+            它必须进入空间，进入身体，进入任务，进入失败后的修正。
+            具身知行希望做的，是让机器人从“会说”走向“会做”，从“识别世界”走向“改变世界”。
+          </p>
+        </div>
+        <a class="button primary" href="#research">查看研究依据</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 具身知行(杭州)人工智能科技有限公司</p>
+      <p>本站为 GitHub Pages 友好的静态网站模板。公开资料请以链接源页面为准。</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
