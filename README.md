@@ -7,7 +7,7 @@
 - `index.html`：网站页面内容
 - `styles.css`：响应式视觉样式
 - `script.js`：年份和页面内平滑跳转
-- `assets/embodied-ai-hero.png`：根据颜力琦研究方向生成的具身智能主视觉图
+- `assets/embodied-ai-hero.png`：根据颜力琦研究方向生成的公司主视觉图
 - `assets/embodied-ai-hero.svg`：主视觉源文件，便于后续调整和重新导出
 - `assets/liqi-yan.jpg`：来自颜力琦个人主页的公开头像图片
 - `assets/liqi-yan-founder.png`：基于公开头像制作的企业主页风格创始人形象图

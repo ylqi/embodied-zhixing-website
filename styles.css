@@ -61,11 +61,13 @@ a:hover {
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 42px;
+  min-width: 86px;
   height: 42px;
+  padding: 0 10px;
   color: var(--white);
   background: linear-gradient(135deg, var(--green), var(--blue));
   border-radius: 8px;
+  font-size: 15px;
   font-weight: 800;
 }
 
