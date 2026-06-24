@@ -54,7 +54,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  min-width: 220px;
+  min-width: min(520px, 52vw);
   color: var(--ink);
 }
 
@@ -77,13 +77,13 @@ a:hover {
 }
 
 .brand strong {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.2;
 }
 
 .brand small {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1.2;
 }
 
@@ -512,10 +512,13 @@ dd {
 @media (max-width: 560px) {
   .brand {
     min-width: 0;
+    align-items: flex-start;
   }
 
   .brand small {
-    display: none;
+    display: block;
+    max-width: 230px;
+    font-size: 9px;
   }
 
   nav {
