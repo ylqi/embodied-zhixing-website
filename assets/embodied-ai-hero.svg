@@ -124,31 +124,42 @@
 
   <g transform="translate(220 390) scale(.78)" filter="url(#shadow)">
     <use href="#robotBase"/>
-    <path d="M164 314C86 326 44 374 38 448" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
-    <path d="M302 314c82 12 128 62 134 142" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
-    <path d="M78 442c-28 18-46 44-54 78" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
-    <path d="M410 452c26 16 44 40 52 72" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
-    <g transform="translate(-4 486)"><use href="#dexterousHandLeft"/></g>
-    <g transform="translate(336 494)"><use href="#dexterousHandRight"/></g>
+    <path d="M164 314C92 318 52 366 48 438" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
+    <path d="M302 314c66 6 110 46 136 112" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
+    <path d="M88 430c-26 18-42 44-48 76" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M416 418c30 2 58 18 80 46" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
+    <rect x="28" y="490" width="66" height="46" rx="10" fill="#c9902c"/>
+    <rect x="42" y="476" width="48" height="34" rx="8" fill="#18a37d"/>
+    <path d="M432 456l64 44" stroke="#102520" stroke-width="13" stroke-linecap="round"/>
+    <rect x="488" y="490" width="54" height="20" rx="6" fill="#1d5f8a"/>
+    <g transform="translate(-2 496) rotate(-8 92 76)"><use href="#dexterousHandLeft"/></g>
+    <g transform="translate(366 438) rotate(20 92 76)"><use href="#dexterousHandRight"/></g>
   </g>
 
   <g transform="translate(686 310) scale(.94)" filter="url(#shadow)">
     <use href="#robotBase"/>
-    <path d="M164 314C96 330 62 382 62 456" fill="none" stroke="#0d6b4f" stroke-width="30" stroke-linecap="round"/>
-    <path d="M302 314c72 18 104 68 98 142" fill="none" stroke="#0d6b4f" stroke-width="30" stroke-linecap="round"/>
-    <path d="M96 450c-22 18-36 44-42 76" fill="none" stroke="#1d5f8a" stroke-width="19" stroke-linecap="round"/>
-    <path d="M376 448c24 18 38 44 42 78" fill="none" stroke="#1d5f8a" stroke-width="19" stroke-linecap="round"/>
-    <g transform="translate(14 492)"><use href="#dexterousHandLeft"/></g>
-    <g transform="translate(310 492)"><use href="#dexterousHandRight"/></g>
+    <path d="M164 314C106 350 86 404 116 464" fill="none" stroke="#0d6b4f" stroke-width="30" stroke-linecap="round"/>
+    <path d="M302 314c58 36 78 90 48 150" fill="none" stroke="#0d6b4f" stroke-width="30" stroke-linecap="round"/>
+    <path d="M132 456c-16 22-22 48-18 78" fill="none" stroke="#1d5f8a" stroke-width="19" stroke-linecap="round"/>
+    <path d="M334 456c16 22 22 48 18 78" fill="none" stroke="#1d5f8a" stroke-width="19" stroke-linecap="round"/>
+    <rect x="166" y="526" width="134" height="18" rx="8" fill="#c9902c"/>
+    <rect x="210" y="490" width="46" height="46" rx="12" fill="#18a37d"/>
+    <path d="M188 514h90" stroke="#102520" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+    <g transform="translate(76 494) rotate(8 92 76)"><use href="#dexterousHandLeft"/></g>
+    <g transform="translate(206 494) rotate(-8 92 76)"><use href="#dexterousHandRight"/></g>
   </g>
 
   <g transform="translate(1202 388) scale(.8)" filter="url(#shadow)">
     <use href="#robotBase"/>
-    <path d="M164 314C104 338 74 390 82 456" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
-    <path d="M302 314c96 10 150 62 158 148" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
-    <path d="M114 452c-22 18-36 42-42 74" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
-    <path d="M432 456c24 16 40 40 48 72" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
-    <g transform="translate(16 492)"><use href="#dexterousHandLeft"/></g>
-    <g transform="translate(350 496)"><use href="#dexterousHandRight"/></g>
+    <path d="M164 314C112 352 92 404 112 468" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
+    <path d="M302 314c104-4 170 40 198 120" fill="none" stroke="#0d6b4f" stroke-width="28" stroke-linecap="round"/>
+    <path d="M140 456c-18 22-26 48-22 78" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M474 426c28 6 54 24 78 54" fill="none" stroke="#1d5f8a" stroke-width="18" stroke-linecap="round"/>
+    <rect x="112" y="514" width="88" height="24" rx="7" fill="#1d5f8a"/>
+    <rect x="538" y="448" width="62" height="48" rx="10" fill="#c9902c"/>
+    <rect x="552" y="432" width="50" height="32" rx="8" fill="#18a37d"/>
+    <path d="M526 482h86" stroke="#102520" stroke-width="11" stroke-linecap="round"/>
+    <g transform="translate(68 500) rotate(6 92 76)"><use href="#dexterousHandLeft"/></g>
+    <g transform="translate(448 428) rotate(18 92 76)"><use href="#dexterousHandRight"/></g>
   </g>
 </svg>
